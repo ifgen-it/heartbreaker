@@ -198,7 +198,7 @@ int main(){
 				break;
 				case 8:  // left-down
   	if (j > 0 && i < Rows -1){
-  		 HBreak[1][i-1][j+1] = 8;	
+  		 HBreak[1][i+1][j-1] = 8;	
   		 HBreak[0][i][j] = 0;
   	}
 				break;
